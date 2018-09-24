@@ -1,5 +1,12 @@
 .Footer {
   margin: 0 auto;
   text-align: center;
-  width: 90%;
+  width: 100%;
+  background-color: #222;
+  color: white;
+}
+.Copiright{
+  background: #000;
+  color: #fff;
+  margin: auto;
 }
