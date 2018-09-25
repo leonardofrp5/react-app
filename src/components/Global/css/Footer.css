@@ -1,12 +1,17 @@
 .Footer {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   width: 100%;
   background-color: #222;
   color: white;
+  display: flex;
+  padding: auto 70px; 
 }
-.Copiright{
-  background: #000;
-  color: #fff;
-  margin: auto;
+.Copyright{
+  width: 45%;
+}
+.LogosNetwors{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
 }

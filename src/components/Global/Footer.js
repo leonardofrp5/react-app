@@ -10,15 +10,15 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        <a href="">
+        <div className="Copyright">
+          <span>Copyright -- Leonardo Romero Perez</span>
+        </div>
+        <div className="LogosNetwors">
           <img src={logo_facebook} alt="logo_facebook" />
           <img src={logo_linkein} alt="logo_linkein" />
           <img src={logo_git} alt="logo_git" />
           <img src={logo_twitter} alt="logo_twitter" />
           <img src={logo_instagram} alt="logo_instagram" />
-        </a>
-        <div className="Copiright">
-          <span>Copyright -- Leonardo Romero Perez</span>
         </div>
       </div>
     );
